@@ -1,0 +1,53 @@
+body{
+  background-color: beige;
+  text-align: center;
+}
+form{
+  background-color:lavender;
+/* box-shadow used for adding shadow effect on an element*/
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.5) ;
+/* to define the maximum width the content can go*/
+  max-width: 500px;
+  margin:50px auto;
+  padding:30px 20px;
+}
+.title{
+  font-size:xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+p{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  margin-bottom:25px;
+}
+input{
+  text-align: left;
+  display: block;
+  margin-bottom:25px;
+  font-size: large;
+}
+select,.textarea{
+  text-align: left;
+  display: block;
+  margin-bottom:25px;
+  border: 1px solid #777;
+  border-radius: 2px;
+  padding: 10px;
+  width: 95%;
+}
+label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  background-color: beige;
+  border-radius: 2px;
+  width: 100%;
+  font-size:large;
+  margin-top:10px;
+  margin-bottom:20px;
+}
